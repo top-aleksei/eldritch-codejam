@@ -27,6 +27,7 @@ function shuffleBTNfunctions() {
   startCardsVisability();
   count = 0;
   closedCards.addEventListener("click", openCards);
+  shuffleBTN.removeEventListener("click", shuffleBTNfunctions);
 }
 
 let selectedAncient;
