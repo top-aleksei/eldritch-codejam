@@ -31,6 +31,7 @@
 
 .ancient__img {
   height: 100%;
+  cursor: pointer;
 }
 
 .level__container {
@@ -73,6 +74,7 @@
 .shuffle-button {
   background-color: rgba(245, 60, 60, 0.6);
   padding: 7px;
+  cursor: pointer;
 }
 
 .cards__container {
@@ -121,4 +123,8 @@
 
 .stage-blue {
   background-color: rgb(74, 20, 145);
+}
+
+.card-back {
+  cursor: pointer;
 }
