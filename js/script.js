@@ -20,7 +20,7 @@ alert(
 
 // SHUFLE BTN
 function shuffleBTNfunctions() {
-  openedCards.src = "none";
+  openedCards.src = "";
   resultContainer.style.opacity = 1;
   makeCardDeck();
   startStackQty();
