@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>eldrith</title>
+  </head>
+  <body>
+    <div class="app__container">
+      <div class="a__container">
+        <div class="ancient-item" id="azathoth">
+          <img
+            src="./assets/Ancients/Azathoth.png"
+            class="ancient__img"
+            alt="Azath"
+          />
+        </div>
+        <div class="ancient-item" id="cthulhu">
+          <img
+            src="./assets/Ancients/Cthulthu.png"
+            class="ancient__img"
+            alt="Cthluhtu"
+          />
+        </div>
+        <div class="ancient-item" id="iogSothoth">
+          <img
+            src="./assets/Ancients/IogSothoth.png"
+            class="ancient__img"
+            alt="Iog"
+          />
+        </div>
+        <div class="ancient-item" id="shubNiggurath">
+          <img
+            src="./assets/Ancients/ShubNiggurath.png"
+            class="ancient__img"
+            alt="Snub"
+          />
+        </div>
+      </div>
+      <div class="level__container" style="opacity: 0">
+        <div class="level-title">Выберите уровень:</div>
+        <div class="level" id="veryEasy">Очень легкий</div>
+        <div class="level" id="easy">Легкий</div>
+        <div class="level" id="middle">Средний</div>
+        <div class="level" id="high">Высокий</div>
+        <div class="level" id="veryHigh">Очень высокий</div>
+      </div>
+      <div class="result__container">
+        <div class="shuffle__container">
+          <div class="shuffle-button" style="opacity: 0">Перемешать колоду</div>
+        </div>
+        <div class="cards__container">
+          <div class="closed-cards">
+            <img
+              src="assets/mythicCardBackground.png"
+              alt="back card"
+              class="card-back card"
+              style="opacity: 0"
+            />
+          </div>
+          <div class="opend-cards">
+            <img
+              src="assets/MythicCards/blue/blue1.png"
+              alt="back card"
+              class="card-front card"
+              style="opacity: 0"
+            />
+          </div>
+        </div>
+        <div class="result-stages" style="opacity: 0">
+          <div class="stage1">
+            <div class="stage-title">Первая стадия</div>
+            <div class="stage-cards st1">
+              <div class="stage-green stage"></div>
+              <div class="stage-orange stage"></div>
+              <div class="stage-blue stage"></div>
+            </div>
+          </div>
+          <div class="stage2">
+            <div class="stage-title">Вторая стадия</div>
+            <div class="stage-cards st2">
+              <div class="stage-green stage"></div>
+              <div class="stage-orange stage"></div>
+              <div class="stage-blue stage"></div>
+            </div>
+          </div>
+          <div class="stage3">
+            <div class="stage-title">Третья стадия</div>
+            <div class="stage-cards st3">
+              <div class="stage-green stage"></div>
+              <div class="stage-orange stage"></div>
+              <div class="stage-blue stage"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
